@@ -7,3 +7,10 @@
 $primaryColor: #14abfa;
 $secondaryColor: #978ded;
 $backgroundColor: #f3f3f3;
+$hoverBackgroundColor: #14a2ec;
+
+body{
+    background: $backgroundColor;
+}
+
+@import 'sign_in';
