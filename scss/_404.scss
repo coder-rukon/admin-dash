@@ -1,0 +1,47 @@
+.area_404 {
+    width: 100%;
+    clear: both;
+}
+
+.inner_404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box_404 {
+    background: #fff;
+    padding: 50px 0;
+    width: 500px;
+    text-align: center;
+}
+
+.box_404 h1 {
+    display: block;
+    font-size: 140px;
+    color: #333333;
+    margin: 35px 0;
+}
+
+.box_404 h6 {
+    display: block;
+    color: #333333;
+    font-size: 18px;
+    font-weight : 600;
+}
+
+.box_404 p {
+    display: block;
+    font-weight: 500;
+}
+
+.box_404 a {
+    display: block;
+    font-weight: 600;
+}
+
+.box_404 a:hover {
+    color: $hoverBackgroundColor;
+    text-decoration: none;
+}

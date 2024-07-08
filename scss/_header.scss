@@ -1,0 +1,155 @@
+.header_area {
+    width: 100%;
+    clear: both;
+}
+
+.inner_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    padding: 0 40px;
+}
+
+.header_left_side {
+    display: flex;
+    gap: 105px;
+}
+
+.logo_area {
+    display: block;
+    width: 180px;
+}
+
+.logo_area a img {
+    width: 150px;
+}
+
+.logo_area p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.notification_area .notification_icons {
+    display: flex;
+    gap: 20px;
+}
+
+.notification_area .notification_icons .custom_notification_icon {
+    background: #f5f5f5;
+    border: none;
+    color: #74787b;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-left: 8px;
+    //   padding-top: 8px;
+}
+
+.notification_area .notification_icons .custom_notification_icon .custom_notifications_badge {
+    background: #13abf7 !important;
+}
+
+.notification_area .notification_icons .custom_notification_icon .custom_comment_badge {
+    background: #978ded !important;
+}
+
+.notification_area .notification_icons .custom_notification_icon .custom_person_badge {
+    background: #ff78b2 !important;
+}
+
+.notification_area .menu_title {
+    margin-top: 30px;
+}
+
+.notification_area .menu_title h5 {
+    color: #565a5b;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.header_right_side {
+    display: flex;
+    gap: 25px;
+}
+
+.header_right_side .search_area form {
+    background: #f4f4f4;
+}
+
+.search_area {
+    float: left;
+    margin-top: 30px;
+}
+
+.search_area form {
+    float: right;
+    max-width: 310px;
+    width: 100%;
+    background: #fff;
+    border-radius: 25px;
+}
+
+.search_area input {
+    border: none;
+    width: 75%;
+    padding: 1%;
+    float: left;
+    color: #000;
+    background: #f4f4f4;
+}
+
+.search_area input::placeholder {
+    color: #afafaf;
+}
+
+.search_area input:focus {
+    background: #f4f4f4;
+    box-shadow: none;
+}
+
+.search_area button[type="submit"] {
+    width: 23%;
+    margin-top: 10px;
+    padding: 0;
+    color: #afafaf;
+}
+
+.user_info {
+    display: flex;
+    margin-bottom: 25px;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.user_info .info_image {
+    width: 25%;
+    float: left;
+}
+
+.user_info .info_image img {
+    border-radius: 50%;
+}
+
+.user_info .info_text {
+    width: 75%;
+    float: right;
+}
+
+.user_info .info_text h3 {
+    color: $primaryColor;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.user_info .info_text p {
+    margin-top: 0;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.breadcrumb_area ol li {
+    font-size: 14px;
+    font-weight: bold;
+}
