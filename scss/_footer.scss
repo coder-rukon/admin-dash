@@ -1,0 +1,29 @@
+.main_footer {
+    padding: 15px 40px 15px 310px;
+    background: #ffffff;
+    font-weight: 500;
+    width: 100%;
+    color: #777777;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer_left {
+        p {
+            margin: 0;
+        }
+    }
+
+    .footer_right {
+        text-align: end;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #14a2ec;
+        text-decoration: underline;
+    }
+}
