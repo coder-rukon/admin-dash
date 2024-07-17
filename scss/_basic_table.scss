@@ -1,0 +1,50 @@
+.basic_table {
+    table {
+        margin: 0;
+
+        thead {
+            border-bottom: 1px solid #eae8f3;
+            th{
+                padding-left: 0;
+                padding-right: 0;
+                color: #333333;
+            }
+            th:first-child {
+                padding-left: 10px;
+            }
+
+            th:last-child {
+                padding-right: 10px;
+            }
+        }
+        
+
+        tbody {
+            tr {
+                td {
+                    padding: 10px 0;
+                    vertical-align: middle;
+                    color: #6b757f;
+                    a {
+                        text-decoration: none;
+                        color: #19bc87;
+                    }
+                }
+
+                td:first-child {
+                    padding-left: 10px;
+                }
+
+                td:last-child {
+                    padding-right: 10px;
+                }
+
+                button {
+                    font-size: 12px;
+                    padding: 5px 10px;
+                }
+            }
+        }
+
+    }
+}

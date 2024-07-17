@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap Tags Input -->
+    <link rel="stylesheet" href="css/bootstrap-tagsinput.css">
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -32,7 +34,7 @@
                 <div class="header_left">
                     <div class="notification_area">
                         <div class="notifications">
-                            <button type="button" class="btn btn-primary position-relative custom_notification_icon">
+                            <button type="button" class="btn btn-primary position-relative custom_notification_icon notification_drop_controller">
                                 <span class="material-symbols-outlined">
                                     notifications
                                 </span>
@@ -41,9 +43,12 @@
                                     <span class="visually-hidden">unread messages</span>
                                 </span>
                             </button>
+                            <div class="notification_dropdown_section">
+                                Activity Notification
+                            </div>
                         </div>
                         <div class="comment">
-                            <button type="button" class="btn btn-primary position-relative custom_notification_icon">
+                            <button type="button" class="btn btn-primary position-relative custom_notification_icon notification_drop_controller">
                                 <span class="material-symbols-outlined">
                                     comment
                                 </span>
@@ -52,9 +57,12 @@
                                     <span class="visually-hidden">unread messages</span>
                                 </span>
                             </button>
+                            <div class="notification_dropdown_section">
+                                Recent message
+                            </div>
                         </div>
                         <div class="person">
-                            <button type="button" class="btn btn-primary position-relative custom_notification_icon">
+                            <button type="button" class="btn btn-primary position-relative custom_notification_icon notification_drop_controller">
                                 <span class="material-symbols-outlined">
                                     person
                                 </span>
@@ -63,6 +71,9 @@
                                     <span class="visually-hidden">unread messages</span>
                                 </span>
                             </button>
+                            <div class="notification_dropdown_section">
+                                My account Notification
+                            </div>
                         </div>
                     </div>
                 </div>

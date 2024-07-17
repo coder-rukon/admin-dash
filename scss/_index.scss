@@ -5,20 +5,32 @@
         border: none;
 
         .card-body {
-            span {
+            .card_icon {
                 color: #fff;
                 border-radius: 50%;
                 padding: 10px;
-                font-size: 40px;
+                font-size: 30px;
+            }
 
-                .groups {
-                    background: #13abf7;
-                }
+            span.groups {
+                background: #13abf7;
+            }
+
+            span.shopping_cart {
+                background: #978ded;
+            }
+
+            span.attach_money {
+                background: #f5a3e3;
+            }
+
+            span.local_shipping {
+                background: #fabb90;
             }
 
             .card-title {
                 color: #444;
-                font-size: 15px;
+                font-size: 14px;
                 font-weight: 600;
             }
 
@@ -26,6 +38,150 @@
                 color: #999ea2;
                 font-size: 30px;
             }
+        }
+    }
+
+    .comment_section {
+        .comment_image {
+            text-align: center;
+
+            img {
+                border-radius: 50%;
+                width: 70px;
+                height: 70px;
+            }
+        }
+
+        .card-body {
+            h5 {
+                font-size: 17px;
+                font-weight: bolder;
+            }
+
+            .card-title {}
+
+            .card-text {
+                font-size: 14px;
+            }
+
+            .comment_approval {
+                display: flex;
+                gap: 15px;
+
+                button {
+                    font-size: 14px;
+                    padding: 0px 15px;
+                    border-radius: 25px;
+                }
+
+                a {
+                    span.check {
+                        color: #2ec290;
+                    }
+
+                    span.close {
+                        color: #ff9192;
+                    }
+                }
+            }
+        }
+
+        hr {
+            border: 1px solid #ccc;
+        }
+    }
+}
+
+
+
+
+
+.chat_widget_section {
+
+    form {
+        float: left;
+        max-width: 220px;
+        width: 100%;
+        background: #f4f4f4;
+        border-radius: 25px;
+        margin-bottom: 20px;
+
+        input {
+            border: none;
+            width: 75%;
+            padding: 1%;
+            float: left;
+            color: #000;
+            background: #f4f4f4;
+        }
+
+        input::placeholder {
+            color: #afafaf;
+        }
+
+        input:focus {
+            background: #f4f4f4;
+            box-shadow: none;
+        }
+
+        button[type="submit"] {
+            width: 23%;
+            padding: 0;
+            color: #afafaf;
+            padding-top: 7px;
+
+            span.material-symbols-outlined {
+                font-size: 18px;
+            }
+        }
+
+        button[type="submit"]:focus {
+            border: none;
+        }
+    }
+
+    .chat_widget_row {
+        display: flex;
+        width: 100%;
+        border-top: 1px solid #ccc;
+    }
+
+    .chat_user_left {
+        padding: 10px;
+        box-sizing: border-box;
+        border-right: 1px solid #ccc;
+        width: 250px;
+
+        .chat_widget_history {
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    display: flex;
+                    gap: 15px;
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                    }
+
+                    h3 {
+                        display: block;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        font-style: italic;
+                        color: #878f9a;
+                    }
+                }
+            }
+
         }
     }
 }

@@ -56,6 +56,10 @@ a {
 
 @import "404";
 
+@import "forms";
+
+@import "basic_table";
+
 .content_with_sidebar {
     display: flex;
     overflow: hidden;
@@ -83,4 +87,18 @@ a {
         overflow: hidden;
         padding: 20px;
     }
+}
+
+
+.widget_title {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.form-group+.form-group {
+    margin-top: 25px;
+}
+
+.card+.card {
+    margin-top: 25px;
 }

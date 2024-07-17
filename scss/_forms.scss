@@ -1,0 +1,82 @@
+.tags_input {
+    .bootstrap-tagsinput {
+        display: block;
+
+        .tag {
+            color: $primaryColor;
+            border: 1px solid $primaryColor;
+            border-radius: 25px;
+            padding: 3px 10px;
+            font-size: 12px;
+
+            [data-role="remove"] {
+                position: relative;
+            }
+
+            [data-role="remove"]::after {
+                content: "x";
+                position: absolute;
+                top: -15px;
+                background: #fff;
+                border-radius: 50%;
+                padding: 0px 8px;
+                font-size: 10px;
+                box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+                left: -5px;
+            }
+        }
+
+        input {
+            padding: 5px;
+        }
+    }
+}
+
+.fg_switch {
+    input {
+        display: none;
+    }
+}
+
+.fg_switch input+div {
+    display: block;
+    background-color: #7e7b7b;
+    width: 80px;
+    overflow: hidden;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    span {
+        color: #333;
+        background-color: #fafafa;
+        padding: 2px 5px;
+        font-size: 13px;
+    }
+
+    .on {
+        display: none;
+        float: left;
+    }
+
+    .off {
+        display: block;
+        float: right;
+    }
+}
+
+.fg_switch input:checked+div {
+    background-color: #14abfa;
+
+    .on {
+        display: block;
+    }
+
+    .off {
+        display: none;
+    }
+}
+
+.fg_switch input:disabled+div {
+    background-color: red !important;
+}

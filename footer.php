@@ -17,6 +17,10 @@
 
 <!-- jQuery -->
 <script src="js/jquery-3.7.1.min.js"></script>
+<!-- APEXCHARTS.JS -->
+<script src="js/apexcharts.min.js"></script>
+<!-- Bootstrap Tags Input -->
+<script src="js/bootstrap-tagsinput.min.js"></script>
 <!-- Bootstrap -->
 <script src="js/bootstrap.bundle.min.js"></script>
 <!-- Main JS -->
