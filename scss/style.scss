@@ -60,6 +60,8 @@ a {
 
 @import "basic_table";
 
+@import "data_table";
+
 .content_with_sidebar {
     display: flex;
     overflow: hidden;
@@ -101,4 +103,8 @@ a {
 
 .card+.card {
     margin-top: 25px;
+}
+
+.ad_ag_grid {
+    height: 500px;
 }

@@ -17,6 +17,8 @@
 
 <!-- jQuery -->
 <script src="js/jquery-3.7.1.min.js"></script>
+ <!-- Includes all JS & CSS for the JavaScript Data Grid -->
+ <script src="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/ag-grid-community.min.js"></script>
 <!-- APEXCHARTS.JS -->
 <script src="js/apexcharts.min.js"></script>
 <!-- Bootstrap Tags Input -->

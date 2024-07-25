@@ -1,0 +1,60 @@
+// .ag-theme-quartz {
+//     /* Changes the color of the grid text */
+//     --ag-foreground-color: rgb(14, 100, 15) !important;
+//     /* Changes the color of the grid background */
+//     --ag-background-color: rgb(241, 247, 255) !important;
+//     /* Changes the header color of the top row */
+//     --ag-header-background-color: rgb(128, 237, 250) !important;
+//     /* Changes the hover color of the row*/
+//     --ag-row-hover-color: rgb(100, 138, 255) !important;
+// }
+
+
+.green-cell {
+    background-color: rgb(100, 150, 100);
+}
+
+.red-row {
+    background-color: rgb(150, 100, 100) !important;
+}
+
+
+
+.data_tables {
+    .row+.row {
+        margin-top: 25px;
+    }
+
+    .table_title {
+        font-size: 16px;
+        font-weight: 600;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+
+    .ag-header-row.ag-header-row-column {
+        color: #333333;
+        font-weight: bold;
+    }
+
+    .ag-cell-value.ag-cell.ag-cell-not-inline-editing.ag-cell-normal-height {
+        color: #69767e;
+    }
+
+    .custom_link {
+        text-decoration: none;
+        color: #19bc87;
+    }
+
+    #divided_table {
+        .ag-paging-row-summary-panel {
+            display: none;
+        }
+
+        .ag-paging-page-summary-panel {
+            display: none;
+        }
+    }
+}

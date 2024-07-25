@@ -155,7 +155,24 @@
                             </uL>
                         </li>
                         <li>
-                            <a href="#"><span class="material-symbols-outlined">edit_square</span><span>Forms</span></a>
+                            <a href="#"><span class="material-symbols-outlined">edit_square</span><span>Forms</span><span class="material-symbols-outlined arrow_down">keyboard_arrow_down</span><span class="material-symbols-outlined arrow_right">keyboard_arrow_right</span></a>
+                            <uL>
+                                <li><a href="#" class="current">Basic Form</a></li>
+                                <li><a href="#">Data Table</a></li>
+                                <li><a href="#">Pricing Table</a></li>
+                            </uL>
+                        </li>
+                        <li>
+                            <a href="#"><span class="material-symbols-outlined">app_registration</span><span>Components</span><span class="material-symbols-outlined arrow_down">keyboard_arrow_down</span><span class="material-symbols-outlined arrow_right">keyboard_arrow_right</span></a>
+                            <uL>
+                                <li><a href="#" class="current">Accordion</a></li>
+                                <li><a href="#">Alerts</a></li>
+                                <li><a href="#">Badges</a></li>
+                                <li><a href="#">Breadcrumb</a></li>
+                                <li><a href="#">Buttons</a></li>
+                                <li><a href="#">Button Group</a></li>
+                                <li><a href="#">Cards</a></li>
+                            </uL>
                         </li>
                         <li>
                             <a href="#"><span class="material-symbols-outlined">calendar_month</span><span>Calender</span></a>
