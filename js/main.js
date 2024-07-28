@@ -350,4 +350,16 @@
 
 
 
+
+
+
+
+
+
+
+    const editor = Jodit.make('#editor', {
+        theme: 'dark'
+    });
+
+
 }(jQuery))

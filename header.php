@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Bootstrap Tags Input -->
     <link rel="stylesheet" href="css/bootstrap-tagsinput.css">
+    <!-- Jodit -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/4.2.27/jodit.min.css" />
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -158,8 +160,8 @@
                             <a href="#"><span class="material-symbols-outlined">edit_square</span><span>Forms</span><span class="material-symbols-outlined arrow_down">keyboard_arrow_down</span><span class="material-symbols-outlined arrow_right">keyboard_arrow_right</span></a>
                             <uL>
                                 <li><a href="#" class="current">Basic Form</a></li>
-                                <li><a href="#">Data Table</a></li>
-                                <li><a href="#">Pricing Table</a></li>
+                                <li><a href="#">Demo Forms</a></li>
+                                <li><a href="#">Product Form</a></li>
                             </uL>
                         </li>
                         <li>
@@ -195,7 +197,7 @@
                             <a href="#"><span class="material-symbols-outlined">move_item</span><span>Logout</span></a>
                         </li>
                     </ul>
-                    
+
                 </aside>
             </div>
         </div>
