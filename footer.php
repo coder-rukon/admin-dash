@@ -26,7 +26,7 @@
 <!-- Bootstrap -->
 <script src="js/bootstrap.bundle.min.js"></script>
 <!-- Jodit -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/4.2.27/jodit.min.js"></script>
+<script src="https://unpkg.com/jodit@4.0.1/es2021/jodit.min.js"></script>
 <!-- Main JS -->
 <script src="js/main.js"></script>
 </body>

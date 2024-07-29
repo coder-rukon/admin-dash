@@ -1,5 +1,11 @@
 (function ($) {
 
+
+    if(document.getElementById('inputProductLongDescription')){
+        const editor = Jodit.make('#inputProductLongDescription');
+        
+        //editor.value = '<p>start</p>';
+    }
     $('.sidebar_menu a').on('click', function (e) {
         if ($(this).next().is('ul')) {
             e.preventDefault();
@@ -356,10 +362,9 @@
 
 
 
+    
+    
 
-    const editor = Jodit.make('#editor', {
-        theme: 'dark'
-    });
 
 
 }(jQuery))

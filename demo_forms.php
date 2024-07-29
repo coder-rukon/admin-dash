@@ -1,7 +1,5 @@
 <?php include "header.php"; ?>
-
 <section>
-
     <div class="row">
 
         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
@@ -165,7 +163,7 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="inputProductQuantity" class="form-label">Product Quantity</label>
-                                    <input type="number" min="0" step="0.01" class="form-control" placeholder="Product Max Quantity" id="inputProductQuantity">
+                                    <input type="number" min="0" step="0.01" class="form-control" placeholder="Product Quantity" id="inputProductQuantity">
                                 </div>
                             </div>
                             <div class="col-md-4">
@@ -247,50 +245,33 @@
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="inputProductLongDescription" class="form-label">Product Long Description</label>
-                                    <textarea name="" class="form-control" id="id=" editor"" rows="3" placeholder="Product Long Description"></textarea>
+                                    <textarea name="inputProductLongDescription" class="form-control" id="inputProductLongDescription" rows="3" placeholder="Product Long Description"></textarea>
                                 </div>
                             </div>
                         </div>
-
                         <hr>
-                        <div class="col-3">
+                        <div class="col-12">
                             <div class="form-group">
-                                <input class="form-check-input" type="checkbox" id="inputCheckbox">
-                                <label class="form-check-label" for="inputCheckbox">
-                                Sale Product
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="form-group">
-                                <input class="form-check-input" type="checkbox" id="inputCheckbox">
-                                <label class="form-check-label" for="inputCheckbox">
-                                Hot Product
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="form-group">
-                                <input class="form-check-input" type="checkbox" id="inputCheckbox">
-                                <label class="form-check-label" for="inputCheckbox">
-                                New Product
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="form-group">
-                                <input class="form-check-input" type="checkbox" id="inputCheckbox">
-                                <label class="form-check-label" for="inputCheckbox">
-                                Featured Product
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="form-group">
-                                <input class="form-check-input" type="checkbox" id="inputCheckbox">
-                                <label class="form-check-label" for="inputCheckbox">
-                                Discount Product
-                                </label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Sale Product</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Hot Product</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox3">New Product</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox4">Featured Product</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox5">Discount Product</label>
+                                </div>
                             </div>
                         </div>
                         <div class="col-12">

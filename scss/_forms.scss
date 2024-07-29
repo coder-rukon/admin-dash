@@ -1,82 +1,98 @@
-.tags_input {
+form {
+    h5 {
+        font-size: 16px;
+        color: #434343;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+.form-group {
+    margin-bottom: 15px;
+
+    label {
+        font-size: 15px;
+        color: #434343;
+        font-weight: 600;
+    }
+
+    .form-control,
+    select,
     .bootstrap-tagsinput {
-        display: block;
-
-        .tag {
-            color: $primaryColor;
-            border: 1px solid $primaryColor;
-            border-radius: 25px;
-            padding: 3px 10px;
-            font-size: 12px;
-
-            [data-role="remove"] {
-                position: relative;
-            }
-
-            [data-role="remove"]::after {
-                content: "x";
-                position: absolute;
-                top: -15px;
-                background: #fff;
-                border-radius: 50%;
-                padding: 0px 8px;
-                font-size: 10px;
-                box-shadow: 0 0 3px rgba(0, 0, 0, .2);
-                left: -5px;
-            }
-        }
-
-        input {
-            padding: 5px;
-        }
-    }
-}
-
-.fg_switch {
-    input {
-        display: none;
-    }
-}
-
-.fg_switch input+div {
-    display: block;
-    background-color: #7e7b7b;
-    width: 80px;
-    overflow: hidden;
-    padding: 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-
-    span {
-        color: #333;
+        border: 1px solid #e1e5e8;
         background-color: #fafafa;
-        padding: 2px 5px;
-        font-size: 13px;
+        color: #444444;
+        font-size: 14px;
+
+        option {
+            color: #aeaeae;
+            font-size: 14px;
+        }
     }
 
-    .on {
-        display: none;
-        float: left;
+    .form-control,
+    select,
+    .bootstrap-tagsinput::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #aeaeae;
+        font-size: 14px;
     }
 
-    .off {
-        display: block;
-        float: right;
-    }
-}
-
-.fg_switch input:checked+div {
-    background-color: #14abfa;
-
-    .on {
-        display: block;
+    .form-control,
+    select,
+    .bootstrap-tagsinput::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #aeaeae;
+        font-size: 14px;
     }
 
-    .off {
-        display: none;
+    .form-control,
+    select,
+    .bootstrap-tagsinput:-ms-input-placeholder {
+        /* IE 10+ */
+        color: #aeaeae;
+        font-size: 14px;
     }
-}
 
-.fg_switch input:disabled+div {
-    background-color: red !important;
+    .form-control,
+    select,
+    .bootstrap-tagsinput:-moz-placeholder {
+        /* Firefox 18- */
+        color: #aeaeae;
+        font-size: 14px;
+    }
+
+    .form-control:focus {
+        border-color: $primaryColor;
+        outline: 0;
+        box-shadow: 0 0 0 .15rem rgba(20, 171, 250, 0.25);
+    }
+
+    .form-check-input:checked {
+        background-color: $primaryColor;
+        border-color: $primaryColor;
+    }
+
+    .form-check-input:focus {
+        border-color: $primaryColor;
+        outline: 0;
+        box-shadow: 0 0 0 .15rem rgba(20, 171, 250, 0.25);
+    }
+
+    .btn {
+        background-color: $primaryColor;
+        color: #fff;
+    }
+
+    .btn:hover {
+        border: 1px solid $primaryColor;
+        color: $primaryColor;
+        background-color: #fff;
+    }
+
+    .custom_example_02_btn {
+        width: 100%;
+    }
+
 }
