@@ -23,37 +23,37 @@
                                     <td>1</td>
                                     <td>Richard Branson</td>
                                     <td>r.branson</td>
-                                    <td><a href="#">r.branson@hotmail.com</a></td>
+                                    <td><a href="#!" class="link">r.branson@hotmail.com</a></td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
                                     <td>Devid Walton</td>
                                     <td>d.walton</td>
-                                    <td><a href="#">d.walton@hotmail.com</a></td>
+                                    <td><a href="#!" class="link">d.walton@hotmail.com</a></td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
                                     <td>James Falid</td>
                                     <td>james.falid</td>
-                                    <td><a href="#">james.falid@gmail.com</a></td>
+                                    <td><a href="#!" class="link">james.falid@gmail.com</a></td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
                                     <td>Brat Lee</td>
                                     <td>br.lee</td>
-                                    <td><a href="#">br.lee@hotmail.com</a></td>
+                                    <td><a href="#!" class="link">br.lee@hotmail.com</a></td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
                                     <td>John Waz</td>
                                     <td>johnwaz</td>
-                                    <td><a href="#">johnwaz@yahoo.com</a></td>
+                                    <td><a href="#!" class="link">johnwaz@yahoo.com</a></td>
                                 </tr>
                                 <tr>
                                     <td>6</td>
                                     <td>Jeneffer Leo</td>
                                     <td>jeneffer.l</td>
-                                    <td><a href="#">jeneffer.l@gmail.com</a></td>
+                                    <td><a href="#!" class="link">jeneffer.l@gmail.com</a></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -95,8 +95,8 @@
                                     <td>782</td>
                                     <td>iStore</td>
                                     <td>
-                                        <button type="button" class="btn btn-outline-primary">Edit</button>
-                                        <button type="button" class="btn btn-outline-danger">Delete</button>
+                                        <a href="#!" class="btn btn-outline-primary">Edit</a>
+                                        <a href="#!" class="btn btn-outline-danger">Delete</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -110,8 +110,8 @@
                                     <td>842</td>
                                     <td>iCenter</td>
                                     <td>
-                                        <button type="button" class="btn btn-outline-primary">Edit</button>
-                                        <button type="button" class="btn btn-outline-danger">Delete</button>
+                                        <a href="#!" class="btn btn-outline-primary">Edit</a>
+                                        <a href="#!" class="btn btn-outline-danger">Delete</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -125,8 +125,8 @@
                                     <td>510</td>
                                     <td>Tech World</td>
                                     <td>
-                                        <button type="button" class="btn btn-outline-primary">Edit</button>
-                                        <button type="button" class="btn btn-outline-danger">Delete</button>
+                                        <a href="#!" class="btn btn-outline-primary">Edit</a>
+                                        <a href="#!" class="btn btn-outline-danger">Delete</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -140,8 +140,8 @@
                                     <td>512</td>
                                     <td>PC Info</td>
                                     <td>
-                                        <button type="button" class="btn btn-outline-primary">Edit</button>
-                                        <button type="button" class="btn btn-outline-danger">Delete</button>
+                                        <a href="#!" class="btn btn-outline-primary">Edit</a>
+                                        <a href="#!" class="btn btn-outline-danger">Delete</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -155,8 +155,8 @@
                                     <td>362</td>
                                     <td>InfoTech</td>
                                     <td>
-                                        <button type="button" class="btn btn-outline-primary">Edit</button>
-                                        <button type="button" class="btn btn-outline-danger">Delete</button>
+                                        <a href="#!" class="btn btn-outline-primary">Edit</a>
+                                        <a href="#!" class="btn btn-outline-danger">Delete</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -170,8 +170,8 @@
                                     <td>520</td>
                                     <td>TechPlus</td>
                                     <td>
-                                        <button type="button" class="btn btn-outline-primary">Edit</button>
-                                        <button type="button" class="btn btn-outline-danger">Delete</button>
+                                        <a href="#!" class="btn btn-outline-primary">Edit</a>
+                                        <a href="#!" class="btn btn-outline-danger">Delete</a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -203,7 +203,7 @@
                                     <td>Brat Lee</td>
                                     <td>br.lee</td>
                                     <td>CEO</td>
-                                    <td><a href="#">r.branson@hotmail.com</a></td>
+                                    <td><a href="#!" class="link">r.branson@hotmail.com</a></td>
                                     <td>$56,000</td>
                                 </tr>
                                 <tr>
@@ -211,7 +211,7 @@
                                     <td>John Waz</td>
                                     <td>johnwaz</td>
                                     <td>Developer</td>
-                                    <td><a href="#">d.walton@hotmail.com</a></td>
+                                    <td><a href="#!" class="link">d.walton@hotmail.com</a></td>
                                     <td>$26,000</td>
                                 </tr>
                                 <tr>
@@ -219,7 +219,7 @@
                                     <td>Jeneffer Leo</td>
                                     <td>jeneffer.l</td>
                                     <td>Designer</td>
-                                    <td><a href="#">james.falid@gmail.com</a></td>
+                                    <td><a href="#!" class="link">james.falid@gmail.com</a></td>
                                     <td>$28,000</td>
                                 </tr>
                                 <tr>
@@ -227,7 +227,7 @@
                                     <td>Richard Branson</td>
                                     <td>r.branson</td>
                                     <td>Marketer</td>
-                                    <td><a href="#">br.lee@hotmail.com</a></td>
+                                    <td><a href="#!" class="link">br.lee@hotmail.com</a></td>
                                     <td>$18,000</td>
                                 </tr>
                                 <tr>
@@ -235,7 +235,7 @@
                                     <td>Devid Walton</td>
                                     <td>d.walton</td>
                                     <td>HRM</td>
-                                    <td><a href="#">johnwaz@yahoo.com</a></td>
+                                    <td><a href="#!" class="link">johnwaz@yahoo.com</a></td>
                                     <td>$22,000</td>
                                 </tr>
                                 <tr>
@@ -243,7 +243,7 @@
                                     <td>James Falid</td>
                                     <td>james.falid</td>
                                     <td>Team Manager</td>
-                                    <td><a href="#">jeneffer.l@gmail.com</a></td>
+                                    <td><a href="#!" class="link">jeneffer.l@gmail.com</a></td>
                                     <td>$23,000</td>
                                 </tr>
                             </tbody>

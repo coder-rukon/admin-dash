@@ -16,10 +16,7 @@
     <!-- Bootstrap Tags Input -->
     <link rel="stylesheet" href="css/bootstrap-tagsinput.css">
     <!-- Jodit -->
-    <link
-  rel="stylesheet"
-  href="https://unpkg.com/jodit@4.0.1/es2021/jodit.min.css"
-/>
+    <link rel="stylesheet" href="https://unpkg.com/jodit@4.0.1/es2021/jodit.min.css" />
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -30,7 +27,7 @@
 
         <div class="logo_area_wraper">
             <div class="logo_area">
-                <a href="#"><img alt="image" src="img/logo_2.jpg" class="header_logo" /></a>
+                <a href="/admin_dash/index.php"><img alt="image" src="img/logo_2.jpg" class="header_logo" /></a>
             </div>
         </div>
 
@@ -154,17 +151,16 @@
                         <li>
                             <a href="#"><span class="material-symbols-outlined">table_chart</span><span>Table</span><span class="material-symbols-outlined arrow_down">keyboard_arrow_down</span><span class="material-symbols-outlined arrow_right">keyboard_arrow_right</span></a>
                             <uL>
-                                <li><a href="#" class="current">Basic Table</a></li>
-                                <li><a href="#">Data Table</a></li>
+                                <li><a href="/admin_dash/basic_table.php" class="current">Basic Table</a></li>
+                                <li><a href="/admin_dash/data_table.php">Data Table</a></li>
                                 <li><a href="#">Pricing Table</a></li>
                             </uL>
                         </li>
                         <li>
                             <a href="#"><span class="material-symbols-outlined">edit_square</span><span>Forms</span><span class="material-symbols-outlined arrow_down">keyboard_arrow_down</span><span class="material-symbols-outlined arrow_right">keyboard_arrow_right</span></a>
                             <uL>
-                                <li><a href="/Admin%20Desk/basic_form.php" class="current">Basic Form</a></li>
-                                <li><a href="#">Demo Forms</a></li>
-                                <li><a href="#">Product Form</a></li>
+                                <li><a href="/admin_dash/basic_form.php" class="current">Basic Forms</a></li>
+                                <li><a href="/admin_dash/demo_form.php">Demo Forms</a></li>
                             </uL>
                         </li>
                         <li>
@@ -186,8 +182,12 @@
                             <a href="#"><span class="material-symbols-outlined">stack</span><span>Pages</span><span class="material-symbols-outlined arrow_down">keyboard_arrow_down</span><span class="material-symbols-outlined arrow_right">keyboard_arrow_right</span></a>
                             <uL>
                                 <li><a href="#" class="current">Gallery</a></li>
-                                <li><a href="#">Invoices</a></li>
-                                <li><a href="#">404</a></li>
+                                <li><a href="/admin_dash/invoices.php">Invoices</a></li>
+                                <li><a href="404.html">404</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="register.html">Register</a></li>
+                                <li><a href="forgot_password.html">Forgot Password</a></li>
+                                <li><a href="reset_password.html">Reset Password</a></li>
                             </uL>
                         </li>
                         <li>
