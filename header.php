@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/bootstrap-tagsinput.css">
     <!-- Jodit -->
     <link rel="stylesheet" href="https://unpkg.com/jodit@4.0.1/es2021/jodit.min.css" />
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific/magnific-popup.css">
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -46,7 +48,16 @@
                                 </span>
                             </button>
                             <div class="notification_dropdown_section">
-                                Activity Notification
+                                <ui>
+                                    <li>Notification</li>
+                                    <li>Notification</li>
+                                    <li>Notification</li>
+                                    <li>Notification</li>
+                                    <li>Notification</li>
+                                    <li>Notification</li>
+                                    <li>Notification</li>
+                                    <li>Notification</li>
+                                </ui>
                             </div>
                         </div>
                         <div class="comment">
@@ -132,10 +143,7 @@
 
                     <ul class="sidebar_menu">
                         <li>
-                            <a href="#"><span class="material-symbols-outlined">desktop_windows</span><span>Dashboard</span></a>
-                        </li>
-                        <li class="">
-                            <a href=""><span class="material-symbols-outlined">format_list_bulleted</span><span>UI Kit</span></a>
+                            <a href="/admin_dash/index.php"><span class="material-symbols-outlined">desktop_windows</span><span>Dashboard</span></a>
                         </li>
                         <li>
                             <a href="#"><span class="material-symbols-outlined">mail</span><span>Emails</span><span class="material-symbols-outlined arrow_down">keyboard_arrow_down</span><span class="material-symbols-outlined arrow_right">keyboard_arrow_right</span></a>
@@ -181,7 +189,6 @@
                         <li>
                             <a href="#"><span class="material-symbols-outlined">stack</span><span>Pages</span><span class="material-symbols-outlined arrow_down">keyboard_arrow_down</span><span class="material-symbols-outlined arrow_right">keyboard_arrow_right</span></a>
                             <uL>
-                                <li><a href="#" class="current">Gallery</a></li>
                                 <li><a href="/admin_dash/invoices.php">Invoices</a></li>
                                 <li><a href="404.html">404</a></li>
                                 <li><a href="login.html">Login</a></li>
@@ -191,7 +198,16 @@
                             </uL>
                         </li>
                         <li>
-                            <a href="#"><span class="material-symbols-outlined">pin_drop</span><span>Maps</span></a>
+                            <a href="/admin_dash/google_map.php"><span class="material-symbols-outlined">pin_drop</span><span>Maps</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="material-symbols-outlined">imagesmode</span><span>Gallery</span><span class="material-symbols-outlined arrow_down">keyboard_arrow_down</span><span class="material-symbols-outlined arrow_right">keyboard_arrow_right</span></a>
+                            <uL>
+                                <li><a href="/admin_dash/gallery.php" class="current">Simple Gallery</a></li>
+                                <li><a href="/admin_dash/gallery_popup.php">Popup Gallery</a></li>
+                                <li><a href="/admin_dash/gallery_advance.php">Advance Gallery</a></li>
+                                <li><a href="/admin_dash/gallery_masonry.php">Masonry Gallery</a></li>
+                            </uL>
                         </li>
                         <li>
                             <a href="#"><span class="material-symbols-outlined">person</span><span>My Profile</span></a>

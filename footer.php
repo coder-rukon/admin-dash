@@ -17,12 +17,16 @@
 
 <!-- jQuery -->
 <script src="js/jquery-3.7.1.min.js"></script>
+<!-- Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBg4HmO6OdkH7N5kWXPKDT52JKk-NN92xQ"></script>
 <!-- Includes all JS & CSS for the JavaScript Data Grid -->
 <script src="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/ag-grid-community.min.js"></script>
 <!-- APEXCHARTS.JS -->
 <script src="js/apexcharts.min.js"></script>
 <!-- Bootstrap Tags Input -->
 <script src="js/bootstrap-tagsinput.min.js"></script>
+<!-- Magnific Popup -->
+<script src="js/magnific/jquery.magnific-popup.min.js"></script>
 <!-- Bootstrap -->
 <script src="js/bootstrap.bundle.min.js"></script>
 <!-- Jodit -->

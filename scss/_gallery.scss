@@ -1,0 +1,41 @@
+.simple_gallery {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    margin: -10px;
+
+    .gallery_item {
+        display: block;
+        width: 25%;
+        float: left;
+        box-sizing: border-box;
+        padding: 10px;
+        overflow: hidden;
+        text-decoration: none;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .with_title {
+        background-color: #fff;
+        padding: 10px;
+        border: 1px solid transparent;
+
+        h3 {
+            color: #565a5b;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        p {
+            color: #b1b1b1;
+            margin: 0;
+        }
+    }
+
+    .with_title:hover {
+        border: 1px solid #ccc;
+    }
+}

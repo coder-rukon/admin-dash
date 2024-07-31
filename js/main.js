@@ -1,9 +1,38 @@
 (function ($) {
+    if (document.getElementById("googleMap")) {
+        let centerMap = new google.maps.LatLng(33.271580, 74.225609);
+        var mapProp = {
+            center: centerMap,
+            zoom: 18,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        marker = new google.maps.Marker({
+            position: centerMap,
+            map: map
+        });
+
+    }
 
 
-    if(document.getElementById('inputProductLongDescription')){
+    // ############################## Image Gallery with popup ##############################
+    $('.gallery_with_popup .gallery_item').magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: false
+        }
+    });
+    $('.gallery_with_popup_slider .gallery_item').magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+
+
+
+    if (document.getElementById('inputProductLongDescription')) {
         const editor = Jodit.make('#inputProductLongDescription');
-        
+
         //editor.value = '<p>start</p>';
     }
     $('.sidebar_menu a').on('click', function (e) {
@@ -362,8 +391,7 @@
 
 
 
-    
-    
+
 
 
 
