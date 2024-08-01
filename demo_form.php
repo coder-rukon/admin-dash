@@ -68,7 +68,6 @@
                                     <label class="form-check-label" for="inputCheckbox">
                                         Check me out
                                     </label>
-
                                 </div>
                             </div>
                             <div class="col-12">
@@ -239,13 +238,13 @@
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="inputProductShortDescription" class="form-label">Product Short Description</label>
-                                    <textarea name="" class="form-control" id="inputProductShortDescription" rows="3" placeholder="Product Short Description"></textarea>
+                                    <textarea name="" class="form-control" id="inputProductShortDescription" rows="5" placeholder="Product Short Description"></textarea>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="inputProductLongDescription" class="form-label">Product Long Description</label>
-                                    <textarea name="inputProductLongDescription" class="form-control" id="inputProductLongDescription" rows="3" placeholder="Product Long Description"></textarea>
+                                    <textarea name="inputProductLongDescription" class="form-control" id="inputProductLongDescription" placeholder="Product Long Description"></textarea>
                                 </div>
                             </div>
                         </div>

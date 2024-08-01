@@ -31,6 +31,8 @@
 <script src="js/bootstrap.bundle.min.js"></script>
 <!-- Jodit -->
 <script src="https://unpkg.com/jodit@4.0.1/es2021/jodit.min.js"></script>
+<!-- Masonry -->
+<script src="js/masonry/masonry.pkgd.min.js"></script>
 <!-- Main JS -->
 <script src="js/main.js"></script>
 </body>

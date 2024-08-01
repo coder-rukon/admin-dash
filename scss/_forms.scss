@@ -95,4 +95,12 @@ form {
         width: 100%;
     }
 
+    input[type="color"] {
+        width: 6%;
+    }
+
+    button{
+        border-color: $primaryColor;
+    }
+
 }

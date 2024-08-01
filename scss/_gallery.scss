@@ -39,3 +39,151 @@
         border: 1px solid #ccc;
     }
 }
+
+
+.advance_gallery {
+    a {
+        img {
+            width: 100%;
+        }
+    }
+
+    .table_title {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .top_part {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .selection {
+            display: flex;
+            gap: 20px;
+
+            .form-group {
+                margin: 0;
+                padding: 0;
+
+                label {
+                    color: #565a5d;
+                    font-weight: 500;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 15px;
+                display: flex;
+                align-items: center;
+
+                span {
+                    font-size: 19px;
+                }
+            }
+
+            a:hover {
+                font-weight: 600;
+            }
+
+            .delete {
+                color: $primaryColor;
+            }
+        }
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .adavance_gallery_item {
+        p {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 5px;
+
+            span {
+                color: #919191;
+            }
+        }
+
+        .modification {
+            display: flex;
+            justify-content: space-between;
+
+            .form-group {
+                margin: 0;
+                padding: 0;
+            }
+
+            .edit_delete {
+                display: flex;
+                gap: 20px;
+
+                a {
+                    text-decoration: none;
+                    font-size: 13px;
+                    display: flex;
+                    align-items: center;
+
+                    span {
+                        font-size: 17px;
+                    }
+                }
+
+                a:hover {
+                    font-weight: 600;
+                }
+
+                .edit {
+                    color: #34bc2e;
+                }
+
+                .delete {
+                    color: #fa605e;
+                }
+            }
+        }
+    }
+
+    .image_categories {
+        a.btn {
+            width: 100%;
+            background-color: #978ded;
+            color: #fff;
+            margin-bottom: 25px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                line-height: 35px;
+
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 14px;
+                    color: #55595a;
+                    font-weight: 500;
+                }
+
+                a:hover {
+                    color: $primaryColor;
+                }
+
+                a.active {
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+
+
+}

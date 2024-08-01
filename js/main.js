@@ -1,4 +1,6 @@
 (function ($) {
+
+    // ############################## Google Map ##############################
     if (document.getElementById("googleMap")) {
         let centerMap = new google.maps.LatLng(33.271580, 74.225609);
         var mapProp = {
@@ -10,9 +12,7 @@
             position: centerMap,
             map: map
         });
-
     }
-
 
     // ############################## Image Gallery with popup ##############################
     $('.gallery_with_popup .gallery_item').magnificPopup({
@@ -21,6 +21,8 @@
             enabled: false
         }
     });
+
+    // ############################## Image Gallery with popup slider ##############################
     $('.gallery_with_popup_slider .gallery_item').magnificPopup({
         type: 'image',
         gallery: {
@@ -28,13 +30,22 @@
         }
     });
 
+    // ############################## Masonry ##############################
+    $('.enable_masonry').masonry({
+        // options
+        itemSelector: '.gallery_item',
+    });
 
-
+    // ############################## Long Description ##############################
     if (document.getElementById('inputProductLongDescription')) {
-        const editor = Jodit.make('#inputProductLongDescription');
-
-        //editor.value = '<p>start</p>';
+        // const editor = Jodit.make('#inputProductLongDescription');
+        var editor = new Jodit('#inputProductLongDescription', {
+            height: 350
+        });
+        editor.setEditorValue('');
     }
+
+    // ############################## Sidebar Menu ##############################
     $('.sidebar_menu a').on('click', function (e) {
         if ($(this).next().is('ul')) {
             e.preventDefault();
@@ -45,9 +56,10 @@
                 }
             });
             $(this).parent().toggleClass('active');
-
         }
     })
+
+    // ############################## Chart 1 ##############################
     var options = {
         series: [{
             name: 'New User',
@@ -85,9 +97,7 @@
         chart.render();
     }
 
-
-
-
+    // ############################## Chart 2 ##############################
     var options = {
         series: [{
             name: 'New User',
@@ -136,11 +146,7 @@
         chart.render();
     }
 
-
-
-
-
-
+    // ############################## Chart 3 ##############################
     var options = {
         series: [44, 55, 41, 17, 15],
         chart: {
@@ -170,14 +176,7 @@
         chart.render();
     }
 
-
-
-
-
-
-
-
-
+    // ############################## Chart 4 ##############################
     var options = {
         series: [{
             data: [34, 44, 54, 21, 12, 43, 33, 23, 66, 66, 58]
@@ -210,24 +209,11 @@
         chart.render();
     }
 
-
-
-
+    // ############################## Notification Dropdown ##############################
     $('.notification_drop_controller').on('click', function (event) {
-        $('.notification_dropdown_section').hide()
-        $(this).next().show()
+        // $('.notification_dropdown_section').hide()
+        $(this).next().toggle("show")
     })
-
-
-
-
-
-
-
-
-
-
-
 
 
     // ############################## Data Table ##############################
@@ -277,9 +263,10 @@
             },
         ]
     };
-    let eDiv = document.getElementById('data_table');
-    let gridApi = agGrid.createGrid(eDiv, gridOptions);
-
+    if (document.getElementById('data_table')) {
+        let eDiv = document.getElementById('data_table');
+        let gridApi = agGrid.createGrid(eDiv, gridOptions);
+    }
 
     // ############################## Divided Table ##############################
     gridOptions = {
@@ -330,10 +317,10 @@
             },
         ]
     };
-    eDiv = document.getElementById('divided_table');
-    gridApi = agGrid.createGrid(eDiv, gridOptions);
-
-
+    if (document.getElementById('divided_table')) {
+        eDiv = document.getElementById('divided_table');
+        gridApi = agGrid.createGrid(eDiv, gridOptions);
+    }
 
     // ############################## Editable Table ##############################
     gridOptions = {
@@ -380,19 +367,9 @@
             },
         ]
     };
-    eDiv = document.getElementById('editable_table');
-    gridApi = agGrid.createGrid(eDiv, gridOptions);
-
-
-
-
-
-
-
-
-
-
-
-
+    if (document.getElementById('editable_table')) {
+        eDiv = document.getElementById('editable_table');
+        gridApi = agGrid.createGrid(eDiv, gridOptions);
+    }
 
 }(jQuery))

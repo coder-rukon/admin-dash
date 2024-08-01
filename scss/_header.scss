@@ -66,8 +66,48 @@
                             font-size: 9px;
                         }
                     }
-                    .notification_dropdown_section{
+
+                    .notification_dropdown_section {
                         display: none;
+                        position: absolute;
+                        background-color: #f9f9f9;
+                        min-width: 160px;
+                        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                        z-index: 1;
+
+                        .chat_widget_row {
+                            border: none;
+                        }
+
+                        .chat_user_left {
+                            border: none;
+                        }
+
+                        .chat_widget_history{
+                            ul{li{
+                                span{
+                                    color: $primaryColor;
+                                }
+                            }}
+                        }
+
+                        .view_all_btn {
+                            text-align: center;
+
+                            a.btn {
+                                background-color: #14abfa;
+                                color: #fff;
+                                display: inline-block;
+                                padding: 1px 8px;
+                                font-size: 12px;
+                            }
+
+                            a.btn:hover {
+                                color: $primaryColor;
+                                border: 1px solid $primaryColor;
+                                background: #fff;
+                            }
+                        }
                     }
                 }
             }

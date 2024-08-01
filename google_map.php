@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="table_title">Google Map</h5>
-                    <div id="googleMap" style="width:100%;height:400px;"></div>
+                    <div id="googleMap" style="width:100%;height:500px;"></div>
                 </div>
             </div>
         </div>

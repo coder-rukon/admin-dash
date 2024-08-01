@@ -127,23 +127,56 @@
     }
 }
 
-.invoice_table{
-    table{
-        tbody{
-            tr{
-                td{
-                    a.unpaid{
+.invoice_table {
+    table {
+        tbody {
+            tr {
+                td {
+                    a.unpaid {
                         text-transform: uppercase;
                         font-size: 12px;
                         background-color: #fa6666;
                         color: #fff;
                     }
-                    a.paid{
+
+                    a.paid {
                         text-transform: uppercase;
                         font-size: 12px;
-                        background-color: #19bc87;;
+                        background-color: #19bc87;
+                        ;
                         color: #fff;
                     }
+                }
+            }
+        }
+    }
+
+    nav {
+        margin-top: 15px;
+
+        ul {
+            margin: 0;
+
+            li {
+                a {
+                    color: $primaryColor;
+                }
+
+                a:hover {
+                    background: $primaryColor;
+                    color: #fff;
+                    border-color: $primaryColor;
+                }
+
+                a.active {
+                    background: $primaryColor;
+                    color: #fff;
+                    border-color: $primaryColor;
+                    box-shadow: none;
+                }
+
+                a:focus {
+                    box-shadow: none;
                 }
             }
         }

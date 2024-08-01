@@ -48,16 +48,55 @@
                                 </span>
                             </button>
                             <div class="notification_dropdown_section">
-                                <ui>
-                                    <li>Notification</li>
-                                    <li>Notification</li>
-                                    <li>Notification</li>
-                                    <li>Notification</li>
-                                    <li>Notification</li>
-                                    <li>Notification</li>
-                                    <li>Notification</li>
-                                    <li>Notification</li>
-                                </ui>
+                                <div class="chat_widget_section">
+                                    <div class="chat_widget_row">
+                                        <div class="chat_user_left">
+                                            <div class="chat_widget_history">
+                                                <ul>
+                                                    <li>
+                                                        <span class="material-symbols-outlined">
+                                                            notifications
+                                                        </span>
+                                                        <div>
+                                                            <h3>Notification name</h3>
+                                                            <p>Last seen 12:28pm</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <span class="material-symbols-outlined">
+                                                            notifications
+                                                        </span>
+                                                        <div>
+                                                            <h3>Notification name</h3>
+                                                            <p>Last seen 12:28pm</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <span class="material-symbols-outlined">
+                                                            notifications
+                                                        </span>
+                                                        <div>
+                                                            <h3>Notification name</h3>
+                                                            <p>Last seen 12:28pm</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <span class="material-symbols-outlined">
+                                                            notifications
+                                                        </span>
+                                                        <div>
+                                                            <h3>Notification name</h3>
+                                                            <p>Last seen 12:28pm</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="view_all_btn">
+                                                    <a href="#!" class="btn">View All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="comment">
@@ -71,7 +110,47 @@
                                 </span>
                             </button>
                             <div class="notification_dropdown_section">
-                                Recent message
+                                <div class="chat_widget_section">
+                                    <div class="chat_widget_row">
+                                        <div class="chat_user_left">
+                                            <div class="chat_widget_history">
+                                                <ul>
+                                                    <li>
+                                                        <img src="img/user_image_1.jpg" alt="">
+                                                        <div>
+                                                            <h3>Comment name</h3>
+                                                            <p>Last seen 12:28pm</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/user_image_2.jpg" alt="">
+                                                        <div>
+                                                            <h3>Comment name</h3>
+                                                            <p>Last seen 12:28pm</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/user_image_3.jpg" alt="">
+                                                        <div>
+                                                            <h3>Comment name</h3>
+                                                            <p>Last seen 12:28pm</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/user_image_4.jpg" alt="">
+                                                        <div>
+                                                            <h3>Comment name</h3>
+                                                            <p>Last seen 12:28pm</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="view_all_btn">
+                                                    <a href="#!" class="btn">View All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="person">
@@ -85,7 +164,47 @@
                                 </span>
                             </button>
                             <div class="notification_dropdown_section">
-                                My account Notification
+                                <div class="chat_widget_section">
+                                    <div class="chat_widget_row">
+                                        <div class="chat_user_left">
+                                            <div class="chat_widget_history">
+                                                <ul>
+                                                    <li>
+                                                        <img src="img/user_image_1.jpg" alt="">
+                                                        <div>
+                                                            <h3>Person name</h3>
+                                                            <p>Last seen 12:28pm</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/user_image_2.jpg" alt="">
+                                                        <div>
+                                                            <h3>Person name</h3>
+                                                            <p>Last seen 12:28pm</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/user_image_3.jpg" alt="">
+                                                        <div>
+                                                            <h3>Person name</h3>
+                                                            <p>Last seen 12:28pm</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <img src="img/user_image_4.jpg" alt="">
+                                                        <div>
+                                                            <h3>Person name</h3>
+                                                            <p>Last seen 12:28pm</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="view_all_btn">
+                                                    <a href="#!" class="btn">View All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -198,9 +317,6 @@
                             </uL>
                         </li>
                         <li>
-                            <a href="/admin_dash/google_map.php"><span class="material-symbols-outlined">pin_drop</span><span>Maps</span></a>
-                        </li>
-                        <li>
                             <a href="#"><span class="material-symbols-outlined">imagesmode</span><span>Gallery</span><span class="material-symbols-outlined arrow_down">keyboard_arrow_down</span><span class="material-symbols-outlined arrow_right">keyboard_arrow_right</span></a>
                             <uL>
                                 <li><a href="/admin_dash/gallery.php" class="current">Simple Gallery</a></li>
@@ -208,6 +324,9 @@
                                 <li><a href="/admin_dash/gallery_advance.php">Advance Gallery</a></li>
                                 <li><a href="/admin_dash/gallery_masonry.php">Masonry Gallery</a></li>
                             </uL>
+                        </li>
+                        <li>
+                            <a href="/admin_dash/google_map.php"><span class="material-symbols-outlined">pin_drop</span><span>Maps</span></a>
                         </li>
                         <li>
                             <a href="#"><span class="material-symbols-outlined">person</span><span>My Profile</span></a>

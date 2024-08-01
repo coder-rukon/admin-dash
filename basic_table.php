@@ -55,6 +55,12 @@
                                     <td>jeneffer.l</td>
                                     <td><a href="#!" class="link">jeneffer.l@gmail.com</a></td>
                                 </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Aliyan Adam</td>
+                                    <td>a.adam</td>
+                                    <td><a href="#!" class="link">aliyan.adam@gmail.com</a></td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
