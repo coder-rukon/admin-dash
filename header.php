@@ -229,6 +229,27 @@
                             <p>Super Admin</p>
                         </div>
                     </div>
+                    <div class="user_profile">
+                        <span class="material-symbols-outlined notification_drop_controller">
+                            keyboard_arrow_down
+                        </span>
+                        <div class="notification_dropdown_section">
+                            <div class="chat_widget_section">
+                                <div class="chat_widget_row">
+                                    <div class="chat_user_left">
+                                        <div class="chat_widget_history">
+                                            <ul>
+                                                <li><span class="material-symbols-outlined">person</span><a href="/admin_dash/my_profile.php">My Profile</a></li>
+                                                <li><span class="material-symbols-outlined">person_edit</span><a href="#!">Edit Profile</a></li>
+                                                <hr>
+                                                <li><span class="material-symbols-outlined">move_item</span><a href="login.html">Logout</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="main_header_bottom">
@@ -327,12 +348,6 @@
                         </li>
                         <li>
                             <a href="/admin_dash/google_map.php"><span class="material-symbols-outlined">pin_drop</span><span>Maps</span></a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="material-symbols-outlined">person</span><span>My Profile</span></a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="material-symbols-outlined">move_item</span><span>Logout</span></a>
                         </li>
                     </ul>
 
